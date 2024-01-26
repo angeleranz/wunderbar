@@ -143,3 +143,213 @@ body {
 }
 
 /*Fim da sessão codada pelo Arthur */
+
+/* Início da sessão codada pelo Angelo */
+
+
+.container{
+    border-radius: 0px 100px;
+    background: rgba(235, 235, 245, 0.30);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.primeira-linha {
+    display: flex;
+    justify-content:space-between;
+}
+
+.coluna-1 {
+    margin-right: 500px;
+}
+
+.coluna-1 h1{
+    width: 926px;
+    color: #06241B;
+    font-family: Caladea;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+    margin-bottom: 8px;
+}
+
+.coluna-1 p {
+    min-width: 811px;
+    height: 40px;
+    color: #7E7EAA;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    margin-top: 8px;
+    margin-bottom: 76px;
+}
+
+.coluna-1 span {
+    color: #7F56D9;
+    font-family: Caladea;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+}
+
+.coluna-2 {
+    display: flex;
+    align-items: center;
+}
+
+.coluna-2 p {
+    margin-left: 12px;
+    color: #7E7EAA;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    padding-bottom: 5px;
+    border-bottom: solid 2px #7E7EAA;
+}
+
+.coluna-2 img {
+    width: 19px;
+    height: 19px;
+    margin-left: 12px;
+}
+
+.segunda-linha {
+    display: flex;
+}
+
+.card-info {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.card-info p {
+    margin-left: 1rem;
+    width: 92px;
+    height: 16px;
+    color: #1F1F39;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+        /* 112.5% */
+}
+
+.card {
+    width: 520px;
+    height: 610px;
+    border-radius: 30px;
+    background: #FFF;
+}
+.card {
+    border-radius: 30px 30px 30px 30px;
+}
+
+img {
+    border-radius: 30px 30px 0 0;
+}
+
+img[alt="ícone de play"] {
+    background-color: #24D198;
+    width: 10.931px;
+    height: 10px;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+img[alt="classificação de 4 estrelas"] {
+    width: 104px;
+    height: 17px;
+}
+
+.card-content-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 45px;
+}
+
+.card-content-2 {
+
+    margin: 36px;
+    color: #06241B;
+    font-family: Caladea;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+
+}
+.course-footer {
+    display: flex !important;
+    align-items: center;
+    margin-left: 36px;
+}
+
+.design-category{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 148px;
+    
+    
+}
+
+.teacher-info {
+    margin: 20px;
+}
+
+.teacher-info p {
+    margin: 7px;
+}
+
+.teacher-info p:first-child {
+    color: #1F1F39;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+.teacher-info p:last-child {
+    color: #7E7EAA;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #24D198;
+    border-radius: 17.5px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    width: 105px;
+    height: 35px;
+}
+
+hr {
+    width: 443px;
+    height: 1px;
+    background: #DADAF7;
+}
+
