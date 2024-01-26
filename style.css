@@ -143,3 +143,86 @@ body {
 }
 
 /*Fim da sessão codada pelo Arthur */
+
+
+
+/* Responsividade */
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px; 
+    }
+
+    .top-categories {
+        margin-top: 2rem; 
+    }
+
+    .explore,
+    .top-c,
+    .small-text,
+    .categories,
+    .little-card {
+        font-size: 1.5rem; 
+    }
+
+    .categories {
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+        padding: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+    .categories p {
+        padding: 0.3rem;
+        margin: 0;
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+
+    .little-card {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .little-card a img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .pic-n-text {
+        flex-direction: column; 
+        margin: 3rem 1rem; 
+    }
+
+    .textinhos {
+        margin: 0.5rem;
+    }
+
+    .textinho-um,
+    .textinho-dois {
+        font-size: 1.5rem; 
+    }
+
+    .nomes-pequenos {
+        display: flex;
+        flex-direction: column; 
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+    .pequeno img {
+        width: 24px;
+        height: 24px;
+    }
+
+    #saiba-mais {
+        margin: 1rem auto; 
+    }
+
+    .imagem {
+        width: 95vh;
+        height: auto;
+    }
+}
