@@ -146,25 +146,32 @@ body {
 
 /* Início da sessão codada pelo Angelo */
 
+body {
+    
+}
 
 .container{
-    border-radius: 0px 100px;
+    position: relative;
+    width: 100%;
+    border-radius: 100px;
     background: rgba(235, 235, 245, 0.30);
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    
 
 
 }
 .primeira-linha {
     display: flex;
     justify-content:space-between;
+    width: fit-content;
+    
 }
 
-.coluna-1 {
-    margin-right: 500px;
-}
+
 
 .coluna-1 h1{
     width: 926px;
@@ -174,7 +181,7 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: 100px;
-    margin-bottom: 8px;
+    margin-bottom: 0.5rem;
 }
 
 .coluna-1 p {
@@ -202,9 +209,10 @@ body {
 .coluna-2 {
     display: flex;
     align-items: center;
+    text-wrap: nowrap;
 }
 
-.coluna-2 p {
+.coluna-2 a {
     margin-left: 12px;
     color: #7E7EAA;
     font-family: Inter;
@@ -214,6 +222,7 @@ body {
     line-height: 16px;
     padding-bottom: 5px;
     border-bottom: solid 2px #7E7EAA;
+    text-decoration-line: none;
 }
 
 .coluna-2 img {
@@ -222,8 +231,10 @@ body {
     margin-left: 12px;
 }
 
-.segunda-linha {
+.segunda-linha, .terceira-linha {
+    width: 100%;
     display: flex;
+    justify-content: space-between;
 }
 
 .card-info {
@@ -246,17 +257,22 @@ body {
 }
 
 .card {
-    width: 520px;
+    width: 30%;
     height: 610px;
     border-radius: 30px;
     background: #FFF;
-}
-.card {
     border-radius: 30px 30px 30px 30px;
+    margin: 0 36px 52px;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+    
+    
 }
 
 img {
     border-radius: 30px 30px 0 0;
+    width: 100%;
+    height: auto;
 }
 
 img[alt="ícone de play"] {
@@ -272,6 +288,8 @@ img[alt="classificação de 4 estrelas"] {
     height: 17px;
 }
 
+
+
 .card-content-1 {
     display: flex;
     align-items: center;
@@ -281,54 +299,57 @@ img[alt="classificação de 4 estrelas"] {
 
 .card-content-2 {
 
-    margin: 36px;
+    margin: 2.25rem;
     color: #06241B;
     font-family: Caladea;
     font-size: 28px;
     font-style: normal;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 2.5rem;
 
 }
-.course-footer {
+.card-footer {
+    width: 100%;
     display: flex !important;
+    justify-content: center;
     align-items: center;
-    margin-left: 36px;
+    margin-top: 1rem;
 }
 
 .design-category{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 148px;
+    margin-left: 4rem;
     
     
 }
 
+
 .teacher-info {
-    margin: 20px;
+    margin: 0;
 }
 
 .teacher-info p {
-    margin: 7px;
+    margin: 0.45rem;
 }
 
 .teacher-info p:first-child {
     color: #1F1F39;
     font-family: Inter;
-    font-size: 18px;
+    font-size: 0.8rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 18px;
+    line-height: 1.12rem;
 }
 
 .teacher-info p:last-child {
     color: #7E7EAA;
     font-family: Inter;
-    font-size: 14px;
+    font-size: 0.8rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 18px;
+    line-height: 1.12rem;
 }
 
 .category {
@@ -348,8 +369,15 @@ img[alt="classificação de 4 estrelas"] {
 }
 
 hr {
-    width: 443px;
+    width: 67%;
     height: 1px;
     background: #DADAF7;
+    margin: 0 auto;
 }
+
+img[alt="triângulo de pontas arredondadas"] {
+    position: relative;
+    right: 6rem;
+}
+
 
