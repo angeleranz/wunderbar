@@ -145,8 +145,31 @@ body {
 /*Fim da sessão codada pelo Arthur */
 
 /* Início da sessão codada pelo Angelo */
-@media screen and (min-width: 1390px) {
-    
+@media screen and (min-width: 1500px) { 
+    .container {
+        .segunda-linha, .terceira-linha {
+            width: fit-content;
+            margin-left: 10rem;
+            margin-right: 10rem;
+        }
+
+        .segunda-linha .card-1 .card-content-2 h3{
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+        .segunda-linha .card-1 .card-content-2 {
+            margin: 2.1rem;
+        }
+
+        .segunda-linha .card-1 {
+            padding-bottom: 4.4rem;
+        }
+
+        .card-content-2 br {
+            display: none;
+        }
+}
 }
 
 .container{
@@ -233,7 +256,8 @@ body {
 .segunda-linha, .terceira-linha {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between
+    
 }
 
 .card-info {
