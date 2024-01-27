@@ -145,8 +145,7 @@ body {
 /*Fim da sessão codada pelo Arthur */
 
 /* Início da sessão codada pelo Angelo */
-
-body {
+@media screen and (min-width: 1390px) {
     
 }
 
@@ -226,9 +225,9 @@ body {
 }
 
 .coluna-2 img {
-    width: 19px;
-    height: 19px;
-    margin-left: 12px;
+    width: 1.18rem;
+    height: 1.18rem;
+    margin-left: 0.75rem;
 }
 
 .segunda-linha, .terceira-linha {
@@ -249,23 +248,20 @@ body {
     height: 16px;
     color: #1F1F39;
     font-family: Inter;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 18px;
-        /* 112.5% */
+    line-height: 1.125rem;
 }
 
 .card {
     width: 30%;
-    height: 610px;
+    height: 50%;
+    padding-bottom: 4rem;
     border-radius: 30px;
     background: #FFF;
     border-radius: 30px 30px 30px 30px;
     margin: 0 36px 52px;
-    flex-shrink: 1;
-    flex-wrap: wrap;
-    
     
 }
 
@@ -275,8 +271,35 @@ img {
     height: auto;
 }
 
-img[alt="ícone de play"] {
+div.card {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.play1 {
     background-color: #24D198;
+}
+
+.play2 {
+    background-color: #00C1FF;
+}
+
+.play3 {
+    background-color: #F15568 
+}
+
+.play4 {
+    background-color: #7F56D9
+}
+
+.play5 {
+    background-color: #FF6905 
+}
+
+.play6 {
+    background-color: #4883FF
+}
+
+.card-info img {
     width: 10.931px;
     height: 10px;
     padding: 8px;
@@ -311,27 +334,25 @@ img[alt="classificação de 4 estrelas"] {
 .card-footer {
     width: 100%;
     display: flex !important;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin-top: 1rem;
 }
 
-.design-category{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 4rem;
-    
-    
-}
 
 
 .teacher-info {
     margin: 0;
+    display: flex;
+    position: relative;
+    top: 1rem;
+    align-items: center;
 }
 
 .teacher-info p {
     margin: 0.45rem;
+    
+
 }
 
 .teacher-info p:first-child {
@@ -341,6 +362,7 @@ img[alt="classificação de 4 estrelas"] {
     font-style: normal;
     font-weight: 600;
     line-height: 1.12rem;
+    margin-bottom: 0;
 }
 
 .teacher-info p:last-child {
@@ -350,23 +372,114 @@ img[alt="classificação de 4 estrelas"] {
     font-style: normal;
     font-weight: 400;
     line-height: 1.12rem;
+    margin-top: 0;
 }
 
 .category {
+    position: relative;
+    top: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #24D198;
     border-radius: 17.5px;
+}
+
+.design-category{
+    display: flex;
+    background-color: #24D198;
     color: #FFF;
+    border-radius: 17.5px;
+    justify-content: center;
+    align-items: center;
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 18px;
-    width: 105px;
-    height: 35px;
+    width: 100%;
+    padding: 0.5rem 0.8rem;
 }
+
+.programming-category{
+    display: flex;
+    background-color: #00C1FF;
+    color: #FFF;
+    border-radius: 17.5px;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    width: 100%;
+    padding: 0.5rem 0.8rem;
+}
+
+.leadership-category {
+    display: flex;
+    background-color: #F15568;
+    color: #FFF;
+    border-radius: 17.5px;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    width: 100%;
+    padding: 0.5rem 0.8rem;    
+}
+
+.marketing-category {
+    display: flex;
+    background-color: #7F56D9;
+    color: #FFF;
+    border-radius: 17.5px;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    width: 100%;
+    padding: 0.5rem 0.8rem;
+}
+
+.finance-category {
+    display: flex;
+    background-color: #FF6905;
+    color: #FFF;
+    border-radius: 17.5px;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    width: 100%;
+    padding: 0.5rem 0.8rem;
+}
+
+.language-category {
+    display: flex;
+    background-color: #4883FF;
+    color: #FFF;
+    border-radius: 17.5px;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    width: 100%;
+    padding: 0.5rem 0.8rem;
+}
+
 
 hr {
     width: 67%;
@@ -378,6 +491,14 @@ hr {
 img[alt="triângulo de pontas arredondadas"] {
     position: relative;
     right: 6rem;
+}
+
+h3 {
+    font-size: 1.78rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    color: #06241B;
+    font-family: Caladea;
 }
 
 
