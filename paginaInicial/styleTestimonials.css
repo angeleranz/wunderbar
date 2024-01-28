@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Caladea', sans-serif;
+}
+
+
+/*Início da sessão codada pela Giovanna */
+
+.testimonials{
+    background-color: #F6F6FC; 
+}
+
+.container-testemunhos{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    margin-top: 1rem;    
+    text-align: center;
+    justify-content: center;
+    border-color: #dadaf780;
+
+}
+
+.nome {
+    color: #7E7EAA;
+    font-size: 1.75 rem;
+}
+.aluno {
+   border: 1.875rem;
+   background-color: #ffff;
+   width: 20.50rem;
+   height: 21rem;
+   padding-right: 0.313rem;
+   margin: 3.125rem;
+   align-items: center;
+   border-radius: 30px;
+}
+
+.seta {
+    display: flex;
+    justify-content: center;
+    padding-top: 5.625rem;
+}
+
+.relato {
+    font-family: 'Inter';
+    color: #7E7EAA;
+    font-size: 1.375rem;
+    padding-bottom: 3.125rem;
+    padding-left: 5.0rem;
+    padding-right: 5.0rem;
+}
+
+.professor {
+    border-radius: 50%;
+    width: 90px;
+    padding-top: 0.50rem;
+}
+
+#testemunhos {
+    font-size: 2rem;
+    color:#1D1D45;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#depoimentos {
+    font-size: 1.563rem;
+    color: #7E7EAA;
+    text-align: center;
+    padding: 10px 15px 20px 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .container-testemunhos {
+        flex-direction: column;
+        width: 100%;
+        font-weight: 400;
+    }
+}
+/*Fim da sessão codada pela Giovanna */
