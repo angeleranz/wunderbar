@@ -172,6 +172,24 @@ body {
 }
 }
 
+@media screen and (max-width: 480px) {
+    .container {
+        display: block;
+        .segunda-linha, .terceira-linha {
+            display: block;
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+
+    .card, .card-1, .card-2, .card-3, .card-4, .card-5, .card-6 {
+        width: 100%;
+    }
+}
+
+
+
 .container{
     position: relative;
     width: 100%;
@@ -525,4 +543,84 @@ h3 {
     font-family: Caladea;
 }
 
+@media screen and (max-width: 480px) {
+    .container {
+        display: block;
+
+        .segunda-linha,
+        .terceira-linha {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 95%;
+            margin-left: 1rem;
+        }
+    }
+
+    .card,
+    .card-1,
+    .card-2,
+    .card-3,
+    .card-4,
+    .card-5,
+    .card-6 {
+        width: 100%;
+    }
+
+    .primeira-linha {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .primeira-linha .coluna-1 h1 {
+        display: flex;
+        flex-direction: column; 
+        width: 100%;
+        flex-wrap: wrap;
+        margin-left: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .primeira-linha .coluna-1 p {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        flex-wrap: wrap;
+        margin-left: 1rem;
+        margin-bottom: 7rem;
+        line-height: 2rem;
+        min-width: fit-content;
+
+    }
+
+
+    .primeira-linha img {
+        display: none;
+    }
+
+    .primeira-linha .coluna-2 {
+
+        margin: 2rem 1rem;
+        border-radius: 10px;
+        background-color: #7F56D9;
+        padding: 1rem;
+        width: fit-content;
+        
+    }
+
+    .coluna-2 a {
+        margin-left: 0;
+        color: #fff;
+        font-family: Inter;
+        padding-bottom: 5px;
+        border-bottom: solid 2px #fff;
+        text-decoration-line: none;
+    }
+    
+}
 
