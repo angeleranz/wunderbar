@@ -107,7 +107,6 @@ body {
 .pequeno {
     display: flex;
     flex-direction: row;
-    align-items: center;
     font-family: Inter;
     font-weight: 600;
     color: #7E7EAA;
@@ -137,8 +136,9 @@ body {
     font-family: Inter;
     font-weight: 600;
     font-size: 0.8rem;
-    margin-left: 78vh;
+    margin-left: 46vw;
     margin-top: -3rem;
+    margin-bottom: 5rem;
     padding-top: 0;
 }
 
