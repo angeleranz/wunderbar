@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Caladea', sans-serif;
+}
+
+
+/*Início da sessão codada pelo Arthur */
+
+.top-categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+.explore {
+    font-size: 2rem;
+    font-family: 'Caladea', sans-serif;
+    color: #06241B;
+    font-weight: 700;
+}
+
+.top-c {
+    font-family: 'Caladea', sans-serif;
+    color: #7F56D9;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.small-text {
+    font-family: 'Inter', sans-serif;
+    color: #7E7EAA;
+    font-weight: 500;
+    font-size: 1rem; 
+    margin-top: -1rem; 
+}
+
+.categories {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #06241B;
+    font-size: 1.1rem;
+}
+
+.little-card {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 1.6rem;
+    border: 0.2rem solid #dadaf780;
+    background-color: #F6F6FC;
+}
+
+.little-card a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-top: 1.5rem; 
+}
+
+.little-card a img {
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+.pic-n-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    margin-top: 5rem;
+    margin-left: 25vh;
+    margin-right: 25vh;
+}
+
+.textinho-um {
+    font-family: Caladea;
+    font-weight: 700;
+    font-size: 2rem;
+    color:#1D1D45;
+    margin-bottom: 0;
+}
+
+.textinho-dois {
+    font-family: Caladea;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #7F56D9;
+    margin-top: 0;
+}
+
+.nomes-pequenos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.pequeno {
+    display: flex;
+    flex-direction: row;
+    font-family: Inter;
+    font-weight: 600;
+    color: #7E7EAA;
+    
+}
+.pequeno img {
+    width: 32px;
+    height: 32px;
+    padding: 0.5rem;
+}
+
+.textão {
+    font-family: Inter;
+    font-weight: 400;
+    color: #7E7EAA;
+    margin-top: 1rem;
+    padding-top: 0.5rem;
+}
+
+#saiba-mais {
+    border-radius: 47px;
+    gap: 8px;
+    background-color: #7F56D9;
+    color: #fff;
+    height: 3rem;
+    width: 8rem;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 0.8rem;
+    margin-left: 46vw;
+    margin-top: -3rem;
+    margin-bottom: 5rem;
+    padding-top: 0;
+}
+
+/*Fim da sessão codada pelo Arthur */
+
+
+
+/* Responsividade */
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px; 
+    }
+
+    .top-categories {
+        margin-top: 2rem; 
+    }
+
+    .explore,
+    .top-c,
+    .small-text,
+    .categories,
+    .little-card {
+        font-size: 1.5rem; 
+    }
+
+    .categories {
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+        padding: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+    .categories p {
+        padding: 0.3rem;
+        margin: 0;
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+
+    .little-card {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .little-card a img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .pic-n-text {
+        flex-direction: column; 
+        margin: 3rem 1rem; 
+    }
+
+    .textinhos {
+        margin: 0.5rem;
+    }
+
+    .textinho-um,
+    .textinho-dois {
+        font-size: 1.5rem; 
+    }
+
+    .nomes-pequenos {
+        display: flex;
+        flex-direction: column; 
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+    .pequeno img {
+        width: 24px;
+        height: 24px;
+    }
+
+    #saiba-mais {
+        margin: 1rem auto; 
+    }
+
+    .imagem {
+        width: 95vh;
+        height: auto;
+    }
+}
