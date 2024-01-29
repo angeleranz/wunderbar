@@ -15,13 +15,46 @@ body{
     height: 100vh;
     display: grid;
     grid-template-areas: 
-    "superioLeft superiorCenter SuperiorRigth"
+    "superior superior superior"
     "center center center";
     grid-template-columns: 20% 50% 30% !important;
     font-family: 'Caladea', sans-serif;
 }
 header{
-    grid-area: superiorCenter;
+    grid-area: superior;
+    display: grid;
+    grid-template-areas: 
+    "headerLeft logo headerCenter menu hederRigith";
+    grid-template-columns: .5fr 1fr .5fr 2fr .5fr;
+    margin: 30px 0;
+    align-items: center;
+}
+header img{
+    width: 100%;
+    grid-area: logo;
+}
+header menu{
+    grid-area: menu;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 5px;
+}
+menu li{
+    list-style: none;
+}
+menu li a{
+    text-decoration: none;
+    color: #000;
+}
+menu li a:visited{
+    color: #000;
+}
+menu li a:hover{
+    color: #5272CE;
+}
+#menuHamurguer{
+    display: none;
 }
 main{
     grid-area: center;
@@ -87,14 +120,8 @@ form > a{
 button{
     border-radius: 15px;
 }
-#btnLogar:hover{
-    filter: contrast(1.5);
-    font-size: 1.1rem;
-}
-button:hover{
-    font-size: 1.1rem;
-}
 #btnLogar{
+    width: 100%;
     margin-top: 20px;
     height: 40px;
     background-color: var( --color-roxo);
@@ -107,6 +134,14 @@ button:hover{
     text-align: center;
     text-decoration: none;
     box-shadow: 4px 5px 5px 1px #4e3a7c;
+    cursor: pointer;
+}
+#btnLogar:hover{
+    filter: contrast(1.5);
+    font-size: 1.1rem;
+}
+button:hover{
+    font-size: 1.1rem;
 }
 #btnIscrever{
     width: 400px;
@@ -130,15 +165,30 @@ button:hover{
     padding-top: 30px;
     height: max-content;
   }
+  header{
+    grid-template-columns: 0fr 4fr 1fr 1fr .1fr;
+  }
+  header menu li{
+    display: none;
+  }
+  header menu{
+    justify-content: end;
+  }
+  #menuHamurguer{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+  }
   main{
     margin-top: 20px;
-    zoom: .5;
+    zoom: .7;
   }
   header img{
     max-width: 80vw;
   }
   #imgCard{
     width: 400px;
-    margin-top: 30px;
+    margin-top: 60px;
   } 
 }
